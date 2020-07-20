@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PT performance</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="menubar">
+    <div class="contianer">
+      <div class="logo">
+        <h1>P.T performance</h1>
+      </div>
+      <ul class="menu1">
+        <li>
+          <a href="#">►เข้าสู่ระบบ</a>
+        </li>
+        <li>
+          <a href="#">สมัครสมาชิก</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <header>
+    <div class="nav">
+      <ul>
+        <li class="home"> <a href="#">Home</a></li>
+        <li class="carbrand"> <a href="#">Brand</a>
+          <ul>
+            <li> <a href="#">DUCATI</a></li>
+            <li> <a href="#">KAWASAKI</a></li>
+            <li> <a href="#">YAMAHA</a></li>
+            <li> <a href="#">HONDA</a></li>
+          </ul>
+        </li>
+        <li class="tire"> <a href="#">Tire</a>
+          <ul>
+            <li><a href="#">PERALLI</a></li>
+            <li><a href="#">DUNLOP</a></li>
+            <li><a href="#">michelin</a></li>
+            <li><a href="#">yokohama</a></li>
+          </ul>
+        </li>
+        <li class="brake"> <a href="#">BRAKE</a>
+          <ul>
+            <li><a href="#">BREMBO</a></li>
+            <li><a href="#">NISSIN</a></li>
+            <li><a href="#">ENDLESS</a></li>
+            <li><a href="#">APRACING</a></li>
+          </ul>
+        </li>
+        <li class="Engine oil"> <a href="#">Engineoil</a>
+          <ul>
+            <li><a href="#">PTT</a></li>
+            <li><a href="#">SHELL</a></li>
+            <li><a href="#">MOBIL</a></li>
+            <li><a href="#">CASTROL</a></li>
+          </ul>
+        </li>
+        <li class="spare parts"> <a href="#">spareparts</a>
+          <ul>
+            <li><a href="#">chain</a></li>
+            <li><a href="#">Leinster</a></li>
+            <li><a href="#">Brake pads</a></li>
+            <li><a href="#">Brake cable</a></li>
+          </ul>
+        </li>
+        <li class="more"> <a href="#">More</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="carousel clearfix">
+    <h2>New Product and promotion</h2>
+    <h3>☑ สินค้าคุณภาพ ☑ รับประกันของแท้</h3>
+    <h4>☑ บริการตนวจเชคระยะ ☑ ถ่ายน้ำมันเครื่อง</h4>
+    <h5>☑ service ครบวงจร ☑ บริการหลังการขาย</h5>
+
+    <div class="carousel-view clearfix">
+
+      <div class="box">
+        <p><img src="image/main2.jpg" width="90%" alt="image">
+        </p>
+      </div><!-- end box -->
+
+      <div class="box">
+        <p><img src="image/2u.jpg" width="90%" alt="image">
+        </p>
+      </div><!-- end box -->
+
+      <div class="box">
+        <p><img src="image/shell2.jpg" width="90%" alt="image">
+        </p>
+      </div><!-- end box -->
+
+    </div><!-- carousel-view -->
+
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script>
+    $('.carousel-view').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1366,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+</body>
+
+</html>
